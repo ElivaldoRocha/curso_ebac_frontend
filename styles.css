@@ -1,0 +1,76 @@
+/* styles.css */
+/* Define a margem padrão e o preenchimento para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos básicos para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para o container principal */
+.container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o título */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos para a lista de tarefas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para os itens da lista de tarefas */
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Estilo para itens concluídos */
+li.completed {
+    text-decoration: line-through;
+    color: #777;
+}
