@@ -1,0 +1,70 @@
+/* Define a margem padrão e o preenchimento para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estiliza o body da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura da tela inteira */
+    background-color: #f0f0f0; /* Define a cor de fundo */
+}
+
+/* Estiliza o contêiner do formulário para centralizar o conteúdo */
+.form-container {
+    display: flex;
+    flex-direction: column; /* Define a direção do layout como coluna */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+/* Estiliza o formulário */
+form {
+    background: #fff; /* Define a cor de fundo do formulário */
+    padding: 20px; /* Adiciona preenchimento ao formulário */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
+    width: 300px; /* Define uma largura fixa para o formulário */
+}
+
+/* Estiliza os rótulos dos campos do formulário */
+label {
+    font-weight: bold; /* Define o texto em negrito */
+    display: block; /* Define o rótulo como bloco */
+    margin-bottom: 5px; /* Adiciona uma margem inferior */
+}
+
+/* Estiliza os campos de entrada do formulário */
+input[type="number"] {
+    width: 100%; /* Define a largura total do campo */
+    padding: 10px; /* Adiciona preenchimento ao campo */
+    margin-bottom: 10px; /* Adiciona uma margem inferior */
+    border: 1px solid #ccc; /* Define uma borda cinza clara */
+    border-radius: 3px; /* Adiciona cantos arredondados */
+}
+
+/* Estiliza o botão de submissão do formulário */
+button[type="submit"] {
+    background: #007bff; /* Define a cor de fundo azul */
+    color: #fff; /* Define a cor do texto como branco */
+    padding: 10px 15px; /* Adiciona preenchimento ao botão */
+    border: none; /* Remove a borda */
+    border-radius: 3px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+}
+
+/* Adiciona uma cor de fundo mais escura ao botão quando em foco */
+button[type="submit"]:hover {
+    background: #0056b3; /* Define uma cor de fundo mais escura */
+}
+
+/* Estiliza a mensagem de feedback */
+#mensagem {
+    margin-top: 15px; /* Adiciona uma margem superior */
+    font-size: 16px; /* Define o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
