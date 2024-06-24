@@ -1,0 +1,64 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    box-sizing: border-box; /* Altera o modelo de box para incluir padding e borda na largura e altura totais dos elementos */
+    font-family: 'Roboto', sans-serif; /* Define a fonte padrão como Roboto para todos os elementos */
+}
+
+body {
+    background-color: #f2f2f2; /* Define a cor de fundo da página */
+    color: #333; /* Define a cor do texto */
+}
+
+header {
+    background-color: #007bff; /* Define a cor de fundo do cabeçalho */
+    color: #fff; /* Define a cor do texto do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 20px 0; /* Adiciona padding vertical de 20px */
+    margin: 0 auto; /* Centraliza horizontalmente o cabeçalho */
+}
+
+h2 {
+    text-align: center; /* Centraliza o texto dos elementos <h2> */
+    margin-bottom: 16px; /* Adiciona uma margem inferior de 16px */
+}
+
+.container {
+    max-width: 600px; /* Define a largura máxima do contêiner como 600px */
+    margin: 0 auto; /* Centraliza horizontalmente o contêiner */
+    padding: 20px; /* Adiciona padding de 20px ao contêiner */
+    margin-top: 30px; /* Adiciona uma margem superior de 30px */
+    background-color: #fff; /* Define a cor de fundo do contêiner como branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do contêiner */
+}
+
+.form-campo {
+    margin-bottom: 20px; /* Adiciona uma margem inferior de 20px aos campos do formulário */
+}
+
+.form-campo label {
+    display: block; /* Define o display como block para o rótulo */
+    font-weight: bold; /* Define a fonte do rótulo como negrito */
+    margin-bottom: 5px; /* Adiciona uma margem inferior de 5px ao rótulo */
+}
+
+.form-campo input {
+    width: 100%; /* Define a largura dos campos de entrada como 100% do contêiner pai */
+    padding: 10px; /* Adiciona padding de 10px aos campos de entrada */
+    border: 1px solid #ccc; /* Define a borda dos campos de entrada */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5px */
+}
+
+.container button {
+    background-color: #007bff; /* Define a cor de fundo do botão */
+    color: white; /* Define a cor do texto do botão */
+    padding: 10px 20px; /* Adiciona padding ao botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Define o cursor como pointer ao passar sobre o botão */
+    font-weight: bold; /* Define a fonte do botão como negrito */
+    display: inline-block; /* Define o display como inline-block */
+}
+
+.error {
+    color: red; /* Define a cor dos textos de erro como vermelho */
+}
