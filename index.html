@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Define o conjunto de caracteres da página como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Define a visualização para dispositivos móveis -->
+    <title>Formulário de Cadastro</title>
+    <!-- Título da página -->
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Importa o CSS do Bootstrap via CDN -->
+  </head>
+  <body>
+    <div class="container mt-5">
+      <!-- Cria um container com margem no topo -->
+      <h2>Formulário de Cadastro</h2>
+      <!-- Título do formulário -->
+
+      <form>
+        <!-- Início do formulário -->
+
+        <div class="form-group">
+          <!-- Grupo de formulário para o campo nome -->
+          <label for="nome">Nome:</label>
+          <!-- Rótulo para o campo nome -->
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            placeholder="Digite seu nome"
+          />
+          <!-- Campo de entrada de texto para o nome com classes Bootstrap para formatação -->
+        </div>
+
+        <div class="form-group">
+          <!-- Grupo de formulário para o campo e-mail -->
+          <label for="email">E-mail:</label>
+          <!-- Rótulo para o campo e-mail -->
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Digite seu e-mail"
+          />
+          <!-- Campo de entrada de texto para o e-mail com classes Bootstrap para formatação -->
+        </div>
+
+        <div class="form-group">
+          <!-- Grupo de formulário para o campo telefone -->
+          <label for="telefone">Telefone:</label>
+          <!-- Rótulo para o campo telefone -->
+          <input
+            type="tel"
+            class="form-control"
+            id="telefone"
+            placeholder="Digite seu telefone"
+          />
+          <!-- Campo de entrada de texto para o telefone com classes Bootstrap para formatação -->
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <!-- Botão de envio do formulário com classe Bootstrap para formatação -->
+      </form>
+      <!-- Fim do formulário -->
+    </div>
+    <!-- Fim do container -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Importa o jQuery via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <!-- Importa o Popper.js via CDN, necessário para alguns componentes do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Importa o JavaScript do Bootstrap via CDN -->
+  </body>
+</html>
